@@ -1,7 +1,7 @@
 # KMM-Movies-Demo
 
 A Kotlin Multiplatform (KMM) app showcasing trending movies and search functionality using the TMDB API, built with Android Jetpack libraries and iOS-compatible shared logic.
-
+ ![App Demo]([demo.gif](https://github.com/dobby-dobby/KMM-Movies-Demo/blob/master/gif_demo_app.gif))
 ## Features
 - **Movies List Screen**: Displays trending movies (cached for offline use) or online search results with movie poster, title, year, and vote average. Dynamic header toggles between "Trending Movies" and "Search Results".
 - **Search**: Real-time movie search using TMDB's search endpoint.
@@ -20,14 +20,9 @@ A Kotlin Multiplatform (KMM) app showcasing trending movies and search functiona
 
 ## Setup
 1. Clone the repository: `git clone https://github.com/dobby-dobby/KMM-Movies-Demo`
-2. Add your TMDB API key to `local.properties`: `TMDB_API_KEY=your_api_key_here`
-3. Build and run the Android app in Android Studio.
-4. For iOS, open the `iosApp` project in Xcode and run.
+2. Build and run the Android app in Android Studio.
+3. For iOS, open the `iosApp` project in Xcode and run.
 
 ## Notes
 - Trending movies are cached with a 24-hour validity period.
 - Search functionality requires an internet connection.
-- iOS app logs data operations to the console for debugging.
-
-## License
-MIT License. See [LICENSE](LICENSE) for details.
