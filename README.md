@@ -12,7 +12,6 @@ A Kotlin Multiplatform (KMM) app showcasing trending movies and search functiona
 - **KMM**: Shares API calls and caching logic between Android and iOS. iOS logs fetched/stored data (no UI).
 - **Architecture**: Uses Jetpack (MVVM, Room, Retrofit, Coroutines, Hilt) and Compose for Android.
 - **Testing**: Includes unit tests for caching and a UI test for core functionality.
-- **Error Handling**: Manages offline/online states and API errors with user-friendly messages.
 
 ## Tech Stack
 - **Android**: Kotlin, Jetpack Compose, Room, Retrofit, Hilt, Coroutines
